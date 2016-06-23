@@ -11,6 +11,7 @@ git clone https://github.com/hefangshi/yog2-react-redux-demo.git
 cd yog2-react-redux-demo
 cd client
 npm i # 安装npm前端组件
+cd ..
 yog2 release debug --fis3 # 发布至 YOG2 服务端
 ```
 

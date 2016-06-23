@@ -1,5 +1,7 @@
 # yog2-react-redux-demo
 
+由 [react-redux examples](https://github.com/reactjs/redux/tree/master/examples/todomvc) 移植生成的适用于 YOG2的 react-redux demo
+
 ## Usage
 
 > 前置步骤包含启动 YOG2 服务端，可参考 [YOG2文档](http://fex.baidu.com/yog2/docs/)

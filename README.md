@@ -2,11 +2,13 @@
 
 由 [react-redux examples](https://github.com/reactjs/redux/tree/master/examples/todomvc) 移植生成的适用于 YOG2的 react-redux demo
 
+实现了 React 的前端编译与后端同构渲染
+
 ## Usage
 
 > 前置步骤包含启动 YOG2 服务端，可参考 [YOG2文档](http://fex.baidu.com/yog2/docs/)
 
-> 要求 YOG2 版本高于0.8
+> 要求 YOG2 版本高于0.8，服务端 yog2-kernel 版本高于1.0
 
 ```bash
 git clone https://github.com/hefangshi/yog2-react-redux-demo.git

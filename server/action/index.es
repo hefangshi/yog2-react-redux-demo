@@ -1,4 +1,3 @@
-import * as React from 'home:node_modules/react/react.js'
 import App from 'home:page/index/index.js'
 import { renderToString } from 'home:node_modules/react-dom/server.js'
 import { getTodos } from '../model/index'

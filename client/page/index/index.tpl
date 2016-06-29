@@ -8,8 +8,9 @@
     {% script %}
         window.__PRELOADED_STATE__ = {{initState|raw}};
         var reactDOM = require('react-dom');
+        var App = require('./index.js').default;
         reactDOM.render(
-            require('./index.js').default(window.__PRELOADED_STATE__), 
+            App(window.__PRELOADED_STATE__), 
             document.getElementById('root')
         );
     {% endscript %}

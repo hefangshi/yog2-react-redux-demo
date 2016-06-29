@@ -13,7 +13,6 @@ fis.match('/client/{actions,components,constants,containers,page,reducers,store}
     }),
     isJsXLike: true,
     isMod: true
-    // packTo: ['/client/pkg/aio.js']
 });
 
 // 启用npm管理前端组件

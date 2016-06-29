@@ -4,10 +4,14 @@
         <title>Redux TodoMVC example</title>
     {% endhead %}
     {%body%}
-        <div class="todoapp" id="root">
-        </div>
+        <div class="todoapp" id="root">{{ssr|raw}}</div>
     {% script %}
-        require('./index.js');
+        window.__PRELOADED_STATE__ = {{initState|raw}};
+        var reactDOM = require('react-dom');
+        reactDOM.render(
+            require('./index.js').default(window.__PRELOADED_STATE__), 
+            document.getElementById('root')
+        );
     {% endscript %}
     {% endbody %}
 {% endhtml %}

@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
 import todos from './todos'
+import errors from './errors'
 
 const rootReducer = combineReducers({
-  todos
+  todos,
+  errors
 })
 
 export default rootReducer

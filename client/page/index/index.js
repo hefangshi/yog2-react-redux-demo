@@ -5,11 +5,12 @@ import App from '../../containers/App'
 import configureStore from '../../store/configureStore'
 import 'todomvc-app-css/index.css'
 
-const store = configureStore()
+export default function (state) {
+    const store = configureStore(state)
+    return (
+      <Provider store={store}>
+        <App />
+      </Provider>
+    )
+}
 
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-)

@@ -7,12 +7,7 @@
         <div class="todoapp" id="root">{{ssr|raw}}</div>
     {% script %}
         window.__PRELOADED_STATE__ = {{initState|raw}};
-        var reactDOM = require('react-dom');
-        var App = require('./index.js').default;
-        reactDOM.render(
-            App(window.__PRELOADED_STATE__), 
-            document.getElementById('root')
-        );
+        require('./client.js');
     {% endscript %}
     {% endbody %}
 {% endhtml %}

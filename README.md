@@ -8,7 +8,7 @@
 
 > 前置步骤包含启动 YOG2 服务端，可参考 [YOG2文档](http://fex.baidu.com/yog2/docs/)
 
-> 要求 YOG2 版本高于0.8，服务端 yog2-kernel 版本高于1.0
+> 要求 YOG2 版本高于1.0.0，服务端 yog2-kernel 版本高于1.0.0
 
 ```bash
 git clone https://github.com/hefangshi/yog2-react-redux-demo.git

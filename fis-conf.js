@@ -3,10 +3,12 @@
  * @author
  */
 
+// fis3-enable
+
 fis.config.set('namespace', 'home');
 
 // 按照 react-redux 的目录规范设置源代码目录
-fis.match('/client/{actions,components,constants,containers,page,reducers,store}/**.{js,es,jsx,ts,tsx}', {
+fis.match('/client/{actions,components,constants,routes,containers,page,reducers,store}/**.{js,es,jsx,ts,tsx}', {
     parser: fis.plugin('typescript', {
         module: 1,
         target: 0

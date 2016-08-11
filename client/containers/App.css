@@ -1,0 +1,7 @@
+.top-nav {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: rgba(175, 47, 47, 1);
+    text-decoration: none;
+}

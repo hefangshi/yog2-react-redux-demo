@@ -1,4 +1,4 @@
-import ReactRenderAction from '../lib/ReactRenderAction'
+import ReactRenderAction from '../lib/reactRenderAction'
 import { getTodos } from '../model/index'
 
 class IndexRenderAction extends ReactRenderAction {

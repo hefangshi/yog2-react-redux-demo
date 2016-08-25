@@ -1,4 +1,4 @@
-import ReactRenderAction from '../lib/ReactRenderAction'
+import ReactRenderAction from '../lib/reactRenderAction'
 
 class AboutRenderAction extends ReactRenderAction {
   async getInitialState(req) {

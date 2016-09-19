@@ -16,7 +16,7 @@ cd yog2-react-redux-demo
 cd client
 npm i --production # 安装npm前端组件
 cd ..
-yog2 release debug --fis3 # 发布至 YOG2 服务端
+yog2 release debug # 发布至 YOG2 服务端
 ```
 
 访问浏览器 `http://127.0.0.1:8085` 即可浏览发布结果

@@ -25,7 +25,7 @@ yog2 release debug --fis3 # 发布至 YOG2 服务端
 
 Q: 是否可以在server目录中使用js后缀替代es后缀
 
-A: 
+A: 可以，在yog2@1.4.0之后，可以通过在fis-conf.js中添加 `fis.enableES7()` server 文件夹中启用js后缀文件支持 ES7 功能。
 
 Q: 新项目如何使用 NPM / React
 

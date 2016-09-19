@@ -23,6 +23,10 @@ yog2 release debug --fis3 # 发布至 YOG2 服务端
 
 ## FAQ
 
+Q: 是否可以在server目录中使用js后缀替代es后缀
+
+A: 
+
 Q: 新项目如何使用 NPM / React
 
 A: 仅需在原有的`fis-conf.js`中添加两句配置即可

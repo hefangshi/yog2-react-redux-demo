@@ -1,5 +1,7 @@
 # yog2-react-redux-demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hefangshi/yog2-react-redux-demo.svg)](https://greenkeeper.io/)
+
 由 [react-redux examples](https://github.com/reactjs/redux/tree/master/examples/todomvc) 移植生成的适用于 YOG2的 react-redux demo
 
 实现了 React 的前端编译与后端同构渲染

@@ -22,9 +22,14 @@ fis.enableNPM({
     autoPack: true
 });
 
-// fis.match('/client/**.js', {
-//     packTo: '/client/pkg/aio.js'
-// });
+
+fis.media('debug-prod').match('/client/**.js', {
+    packTo: '/client/pkg/aio.js'
+}).match('/client/static/**.js', {
+    packTo: '/client/pkg/lib.js'
+}).match('/client/**.css', {
+    packTo: '/client/pkg/aio.css'
+});
 
 // chrome下可以安装插件实现livereload功能
 // https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei

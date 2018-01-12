@@ -21,6 +21,7 @@ yog2 release debug # 发布至 YOG2 服务端
 
 访问浏览器 `http://127.0.0.1:8085` 即可浏览发布结果
 
+
 ## FAQ
 
 Q: 是否可以在server目录中使用js后缀替代es后缀
@@ -51,3 +52,6 @@ fis.enableNPM({
 Q: 有些同构库如 `isomorphic-fetch` 无法使用，报加载错误
 
 A: 由于 YOG2 框架的前后端同构策略是直接加载前端编译产出，而 `isomorphic-fetch` 库的前端代码在加载期就包含了对浏览器端的强依赖，因此无法使用，建议使用[axios](https://github.com/mzabriskie/axios)
+
+Q: 如何打包零散资源
+A: `yog2 release debug-prod`
